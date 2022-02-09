@@ -1,8 +1,8 @@
 FROM node:lts-alpine
 ENV NODE_ENV=production
-ENV PORT=8081
+ENV PORT=80
 WORKDIR /app
 COPY . .
 RUN npm install --silent
-EXPOSE 8081
+EXPOSE 80
 CMD ["node", "index.js"]

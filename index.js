@@ -16,7 +16,7 @@ app.use(express.urlencoded({extended:true}));
 app.use("/users",userRoutes);
 
 try{
-    app.listen(8081,()=>console.log("Escuchando en puerto 8081"));
+    app.listen(80,()=>console.log("Escuchando en puerto 8081"));
 }
 catch{
     err=>console.log(err)
