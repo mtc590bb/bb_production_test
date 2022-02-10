@@ -6,6 +6,7 @@
 const express=require("express");
 const userRoutes=require("./routes/users_routes");
 const cors=require('cors');
+const port = 3000
 
 const app=express();
 
@@ -16,7 +17,7 @@ app.use(express.urlencoded({extended:true}));
 app.use("/users",userRoutes);
 
 try{
-    app.listen(8081,()=>console.log("Escuchando en puerto 8081"));
+    app.listen(port,()=>console.log(`Escuchando en puerto ${port}`));
 }
 catch{
     err=>console.log(err)
