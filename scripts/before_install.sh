@@ -13,4 +13,4 @@ then
 fi
 
 mkdir -p $FOLDER
-mkdir -p testingg
+mkdir -p "testingg"
