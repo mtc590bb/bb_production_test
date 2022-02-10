@@ -59,7 +59,7 @@ exports.getAuth=async(req,res)=>{
             res.status(200)
             res.json({
                 'data':{
-                    'token': 'testFinally'
+                    'message': 'CI/CD on AWS :D'
                 }
             });
         }
