@@ -59,7 +59,7 @@ exports.getAuth=async(req,res)=>{
             res.status(200)
             res.json({
                 'data':{
-                    'message': 'CI/CD on AWS :D'
+                    'message': 'BuildingBuddy First CI/CD on AWS :D'
                 }
             });
         }
