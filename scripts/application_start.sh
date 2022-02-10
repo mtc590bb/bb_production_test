@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mkdir testingfolder
+mkdir "express-app-testingg"
 
 #give permission for everything in the express-app directory
 sudo chmod -R 777 /home/ec2-user/express-app
@@ -8,7 +8,7 @@ sudo chmod -R 777 /home/ec2-user/express-app
 #navigate into our working directory where we have all our github files
 cd /home/ec2-user/express-app
 
-mkdir testingfolder2
+mkdir "express-app-testingg"
 
 #add npm and node to path
 export NVM_DIR="$HOME/.nvm"	
