@@ -58,8 +58,8 @@ exports.getAuth=async(req,res)=>{
         }else{
             res.status(200)
             res.json({
-                'data2':{
-                    'token': 'MTC590123'
+                'data':{
+                    'token': 'test'
                 }
             });
         }
