@@ -11,6 +11,5 @@ if [ -d $FOLDER ]
 then
  rm -rf $FOLDER
 fi
-
-mkdir -p $FOLDER
 mkdir -p "/home/ec2-user/express-app-testingg"
+mkdir -p $FOLDER
